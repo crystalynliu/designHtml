@@ -1,0 +1,295 @@
+
+body{
+	margin: 0 auto;
+	font-family: Arial,"MicroSoft YaHei";
+	font-size: 14px;
+	width: 1152px;
+	background-color:#F3F3f0;
+}
+header{
+	height: 685px;
+	background: url("../images/sunset-resized.jpg") center top no-repeat;
+	background-size: 138% 169%;
+	color: white;
+}
+.logo{
+	height: 100px;
+	padding: 21px 51px;
+}
+.logo a{
+	font-size: 2.7em;
+	margin-left:100px; 
+}
+.logo ul li{
+	display: inline;
+	padding: 0 7px;
+	font-size:0.9em;
+}
+.logo ul li a{
+	font-size: 0.9em;
+	padding: 7px 17px;
+	border: solid white 1px;
+	border-radius: 5px;
+	margin: 0;
+	color: white;
+}
+header ul{
+	float: right;
+	margin: 10px 94px 0 0;
+}
+.search{
+	height: 125px;
+	width: 513px;
+	margin: 0 auto;
+	margin-top: 100px;
+}
+.search p:nth-child(1){
+	font-size: 2.05em;
+	font-weight: 500;
+	color: #000000;
+	text-align: center;
+}
+.search p:nth-child(2){
+	font-size: 0.9em;
+	padding: 10px 135px;
+	font-weight: 500;
+	color: #929292;
+}
+
+.search form{
+	margin-top:10px;
+	border-radius: 4px;
+	border: solid 1px #c2c8bd;
+}
+.searchText{
+	padding: 16px 23px;
+	width: 371px;
+	/*border-radius: 4px;*/
+	border: solid 0.5px #c2c8bd;
+	background: rgba(255,255,255,0.6);
+}
+.searchbtn{
+	padding: 16px 19px;
+	background-color: #41ebab;
+	border: solid 0.5px #41ebab;
+	/*border-radius: 4px;*/
+	color: white;
+	font-weight: 400;
+}
+
+.numShow{
+	margin: -72px auto 0;
+	width: 847px;
+	height: 120px;
+	border: solid 1px #E1E1E1;
+	border-radius: 4px;
+	background-color:#F3F3f0; 
+}
+.numShow li{
+	display: inline-block;
+	width: 210px;
+	height: 82px;
+	padding: 38px 0 0;
+	border-left: solid 1px #E1E1E1;
+}
+.numShow li:first{
+	border-left: none;
+}
+
+.numShow li p:nth-child(1){
+	text-align: center;
+	font-weight: bolder;
+	font-size: 1.7em;
+}
+.numShow li p:nth-child(2){
+	text-align: center;
+	font-size: 0.8em;
+	margin: 8px 0;
+	color: #999998;
+}
+
+#works{
+	height: 394px;
+	border-bottom: solid 2px #E2E2E2;
+}
+.title{
+	font-weight: bolder;
+}
+#works .title{
+	margin: 62px auto;
+	width: 98px;
+	font-size: 0.9em;
+}
+#works ul {
+	width: 939px;
+	margin: 0 auto;
+	padding: 12px 0;
+}
+#works ul li{
+	float: left;
+	width: 308px;
+	text-align: center;
+	border-top: solid 1px #E2E2E2;
+	list-style: none;
+}
+#works img{
+	width: 73px;
+	height: 73px;
+	margin: 30px 0 -4px 0;
+}
+#works .littleTitle{
+	padding: 9px 0;
+}
+#works .content{
+	font-size: 0.8em;
+	width: 222px;
+	margin: 2px 38px;
+	height: 45px;
+	line-height: 14px;
+	color: #999998;
+}
+#works .num{
+	width: 31px;
+	margin: -15px 138px 0;
+	padding: 8px 0;
+	background-color:white;
+	border:solid 1px #E2E2E2; 
+	border-radius: 19px;
+	font-weight: bolder;
+}
+#choose{
+	height:527px; 
+	border-bottom: solid 2px #E2E2E2;
+}
+#choose .title{
+	width: 139px;
+	margin:79px auto 70px; 
+}
+#choose ul{
+	float: left;
+	width: 352px;
+	margin-left:143px; 
+}
+#choose ul li{
+	padding-bottom: 122px;
+}
+#choose ul li div{
+	float: left;
+}
+#choose .text{
+	width: 280px;
+	margin-left: 29px;
+}
+#choose ul li img{
+	height: 37px;
+}
+#choose .text p:nth-child(1){
+	font-weight: bolder;
+}
+#choose .text p:nth-child(2){
+	font-size: 0.8em;
+	margin-top: 14px;
+	line-height: 15px;
+	color: #999998;
+}
+
+#feed{
+	color: #626279;
+	height: 442px;
+}
+
+#feed ul{
+	height: 46px;
+	margin: 65px auto 0;
+	width: 297px;
+	border:solid 2px #9595A4;
+	border-radius: 4px;
+}
+#feed ul li{
+	float: left;
+	width: 148px;
+	line-height: 46px;
+	text-align: center;
+	font-weight: bolder;
+}
+#feed ul li:nth-child(1){
+	background-color: #626279;
+	color: white;
+}
+
+#feed .quota{
+	width: 20px;
+	margin: 32px auto 0;
+}
+.quota img{
+	height: 16px;
+}
+#feed p{
+	margin:20px auto 0;
+	width: 839px;
+	font-weight: bolder;
+	text-align: center;
+	line-height: 19px;
+	color: #AAA9AB;
+}
+
+#feed .imgSet{
+	margin: 101px auto 0;
+	width: 362px;
+}
+#feed .imgSet img{
+	width: 78px;
+	margin:0 20px;
+	border-radius: 37px;
+}
+#feed .grap
+{
+	-webkit-filter: grayscale(100%);     
+  	-moz-filter: grayscale(100%);    
+   	-ms-filter: grayscale(100%);     
+  	-o-filter: grayscale(100%);       
+    filter: grayscale(100%);          
+  	filter: gray;
+}
+
+footer{
+	height: 49px;
+	background:  url("../images/sunset-resized.jpg") -486px -347px no-repeat;
+	background-size: 146% 400%;
+	padding: 88px 0;
+	color: white;
+}
+footer div{
+	width: 658px;
+	margin: 0 auto;
+}
+footer span{
+	font-size: 1.4em;
+	font-weight: bolder;
+}
+footer .searchText{
+	background: rgb(255,255,255);
+}
+
+
+nav{
+	width: 849px;
+	height: 18px;
+	margin: 21px auto;
+	color: #AAA9AB;
+}
+nav ul:nth-child(1){
+	float: left;
+}
+nav ul:nth-child(1) li{
+	padding: 0 5px;
+}
+nav ul:nth-child(2){
+	float: right;
+}
+nav ul li{
+	display: inline;
+}
+nav ul li img{
+	width: 20px;
+}
