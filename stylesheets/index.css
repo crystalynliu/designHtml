@@ -22,7 +22,7 @@ header nav{
 	color: white;
 }
 .logo:hover{
-	color: #000000;
+	color: rgb(130,130,130);
 }
 
 header nav ul{
@@ -30,19 +30,25 @@ header nav ul{
 	margin: 10px 8.2% 0 0;
 	width: 23%;
 }
-header nav ul li a{
+header nav ul li{
 	display: inline;
+}
+header nav ul li a{
+	display: inline-block;
 	padding: 0 4%;
 	font-size:0.9em;
 	color: white;
+	line-height: 30px;
 }
 nav ul li a:hover{
 	background-color:rgb(150,150,150);
+	border-radius: 5px;
+	border:solid 1px rgb(150,150,150);
 	color: white;
 }
 header nav ul li:nth-child(3) a{
-	font-size: 0.9em;
-	padding: 7px 8%;
+/*	font-size: 0.9em;
+	padding: 7px 8%;*/
 	border: solid white 1px;
 	border-radius: 5px;
 	margin: 0;
@@ -70,21 +76,27 @@ header nav ul li:nth-child(3) a{
 
 form{
 	margin-top:10px;
-	border-radius: 4px;
-	border: solid 1px #c2c8bd;
+	/*border-radius: 4px;*/
+	/*border: solid 1px #c2c8bd;*/
 }
 .searchText{
 	padding: 16px 4%;
-	width: 74.3%;
-	/*border-radius: 4px;*/
-	border: solid 0.5px #c2c8bd;
+	width: 73.3%;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	border-top: solid 1px #c2c8bd;
+	border-bottom: solid 1px #c2c8bd;
+	border-left: solid 1px #c2c8bd;
 	background: rgba(255,255,255,0.6);
 }
 .searchbtn{
 	padding: 16px 4%;
 	background-color: #41ebab;
-	border: solid 0.5px #41ebab;
-	/*border-radius: 4px;*/
+	border-top: solid 1px #41ebab;
+	border-bottom: solid 1px #41ebab;
+	border-right: solid 1px #41ebab;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
 	color: white;
 	font-weight: 400;
 }
@@ -294,21 +306,24 @@ footer .searchText{
 
 #bottom-nav{
 	width: 73%;
-	height: 18px;
-	margin: 21px auto;
+	height: 30px;
+	margin: 19px auto;
 	color: #AAA9AB;
 }
 #bottom-nav ul:nth-child(1){
 	float: left;
 }
-#bottom-nav ul:nth-child(1) li{
+#bottom-nav ul li{
+	
+	display: inline;
+}
+#bottom-nav ul li a{
 	padding: 0 5px;
+	display: inline-block;
+	line-height: 30px;
 }
 #bottom-nav ul:nth-child(2){
 	float: right;
-}
-#bottom-nav ul li{
-	display: inline;
 }
 #bottom-nav ul li img{
 	width: 20px;
