@@ -2,8 +2,8 @@
 body{
 	margin: 0 auto;
 	font-family: Arial,"MicroSoft YaHei";
-	font-size: 14px;
-	width: 1152px;
+	font-size: 16px;
+	/*width: 90%;*/
 	background-color:#F3F3f0;
 }
 header{
@@ -12,34 +12,45 @@ header{
 	background-size: 138% 169%;
 	color: white;
 }
-.logo{
+header nav{
 	height: 100px;
-	padding: 21px 51px;
+	padding: 21px 5.1%;
 }
-.logo a{
+.logo{
 	font-size: 2.7em;
-	margin-left:100px; 
+	margin-left:9%; 
+	color: white;
 }
-.logo ul li{
+.logo:hover{
+	color: #000000;
+}
+
+header nav ul{
+	float: right;
+	margin: 10px 8.2% 0 0;
+	width: 23%;
+}
+header nav ul li a{
 	display: inline;
-	padding: 0 7px;
+	padding: 0 4%;
 	font-size:0.9em;
+	color: white;
 }
-.logo ul li a{
+nav ul li a:hover{
+	background-color:rgb(150,150,150);
+	color: white;
+}
+header nav ul li:nth-child(3) a{
 	font-size: 0.9em;
-	padding: 7px 17px;
+	padding: 7px 8%;
 	border: solid white 1px;
 	border-radius: 5px;
 	margin: 0;
-	color: white;
 }
-header ul{
-	float: right;
-	margin: 10px 94px 0 0;
-}
+
 .search{
 	height: 125px;
-	width: 513px;
+	width: 45%;
 	margin: 0 auto;
 	margin-top: 100px;
 }
@@ -51,25 +62,26 @@ header ul{
 }
 .search p:nth-child(2){
 	font-size: 0.9em;
-	padding: 10px 135px;
+	padding: 10px 0;
+	text-align: center;
 	font-weight: 500;
 	color: #929292;
 }
 
-.search form{
+form{
 	margin-top:10px;
 	border-radius: 4px;
 	border: solid 1px #c2c8bd;
 }
 .searchText{
-	padding: 16px 23px;
-	width: 371px;
+	padding: 16px 4%;
+	width: 74.3%;
 	/*border-radius: 4px;*/
 	border: solid 0.5px #c2c8bd;
 	background: rgba(255,255,255,0.6);
 }
 .searchbtn{
-	padding: 16px 19px;
+	padding: 16px 4%;
 	background-color: #41ebab;
 	border: solid 0.5px #41ebab;
 	/*border-radius: 4px;*/
@@ -79,7 +91,7 @@ header ul{
 
 .numShow{
 	margin: -72px auto 0;
-	width: 847px;
+	width: 73%;
 	height: 120px;
 	border: solid 1px #E1E1E1;
 	border-radius: 4px;
@@ -87,7 +99,7 @@ header ul{
 }
 .numShow li{
 	display: inline-block;
-	width: 210px;
+	width: 24.8%;
 	height: 82px;
 	padding: 38px 0 0;
 	border-left: solid 1px #E1E1E1;
@@ -117,40 +129,40 @@ header ul{
 }
 #works .title{
 	margin: 62px auto;
-	width: 98px;
+	width: 9%;
 	font-size: 0.9em;
 }
 #works ul {
-	width: 939px;
+	width: 82%;
 	margin: 0 auto;
 	padding: 12px 0;
 }
 #works ul li{
 	float: left;
-	width: 308px;
+	width: 33%;
 	text-align: center;
 	border-top: solid 1px #E2E2E2;
 	list-style: none;
 }
 #works img{
-	width: 73px;
-	height: 73px;
-	margin: 30px 0 -4px 0;
+	width: 25%;
+	/*height: 73px;*/
+	margin: 30px 0 -4px;
 }
 #works .littleTitle{
 	padding: 9px 0;
 }
 #works .content{
 	font-size: 0.8em;
-	width: 222px;
-	margin: 2px 38px;
+	width: 80%;
+	margin: 2px 11%;
 	height: 45px;
 	line-height: 14px;
 	color: #999998;
 }
 #works .num{
 	width: 31px;
-	margin: -15px 138px 0;
+	margin: -15px 44% 0;
 	padding: 8px 0;
 	background-color:white;
 	border:solid 1px #E2E2E2; 
@@ -162,13 +174,13 @@ header ul{
 	border-bottom: solid 2px #E2E2E2;
 }
 #choose .title{
-	width: 139px;
+	width: 13%;
 	margin:79px auto 70px; 
 }
 #choose ul{
 	float: left;
-	width: 352px;
-	margin-left:143px; 
+	width: 30%;
+	margin-left:12.5%; 
 }
 #choose ul li{
 	padding-bottom: 122px;
@@ -177,11 +189,12 @@ header ul{
 	float: left;
 }
 #choose .text{
-	width: 280px;
-	margin-left: 29px;
+	width: 80.9%;
+	margin-left: 8.3%;
 }
 #choose ul li img{
 	height: 37px;
+	margin-top: -5px;
 }
 #choose .text p:nth-child(1){
 	font-weight: bolder;
@@ -201,13 +214,13 @@ header ul{
 #feed ul{
 	height: 46px;
 	margin: 65px auto 0;
-	width: 297px;
+	width: 26%;
 	border:solid 2px #9595A4;
 	border-radius: 4px;
 }
 #feed ul li{
 	float: left;
-	width: 148px;
+	width: 50%;
 	line-height: 46px;
 	text-align: center;
 	font-weight: bolder;
@@ -218,7 +231,7 @@ header ul{
 }
 
 #feed .quota{
-	width: 20px;
+	width: 2%;
 	margin: 32px auto 0;
 }
 .quota img{
@@ -226,7 +239,7 @@ header ul{
 }
 #feed p{
 	margin:20px auto 0;
-	width: 839px;
+	width: 73%;
 	font-weight: bolder;
 	text-align: center;
 	line-height: 19px;
@@ -235,12 +248,12 @@ header ul{
 
 #feed .imgSet{
 	margin: 101px auto 0;
-	width: 362px;
+	width: 33%;
 }
 #feed .imgSet img{
-	width: 78px;
-	margin:0 20px;
-	border-radius: 37px;
+	width: 20%;
+	margin:0 6%;
+	border-radius: 48%;
 }
 #feed .grap
 {
@@ -256,24 +269,31 @@ footer{
 	height: 49px;
 	background:  url("../images/sunset-resized.jpg") -486px -347px no-repeat;
 	background-size: 146% 400%;
-	padding: 88px 0;
+	padding: 88px 21.2%;
 	color: white;
 }
 footer div{
-	width: 658px;
+	width: 56%;
 	margin: 0 auto;
+}
+footer form{
+	width: 78.1%;
+	float: right;
+	margin-top: 0;
 }
 footer span{
 	font-size: 1.4em;
 	font-weight: bolder;
+	line-height: 43px;
 }
 footer .searchText{
 	background: rgb(255,255,255);
+	/*width: 73.2%;*/
 }
 
 
 nav{
-	width: 849px;
+	width: 73%;
 	height: 18px;
 	margin: 21px auto;
 	color: #AAA9AB;
