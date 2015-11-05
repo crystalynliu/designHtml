@@ -292,24 +292,24 @@ footer .searchText{
 }
 
 
-nav{
+#bottom-nav{
 	width: 73%;
 	height: 18px;
 	margin: 21px auto;
 	color: #AAA9AB;
 }
-nav ul:nth-child(1){
+#bottom-nav ul:nth-child(1){
 	float: left;
 }
-nav ul:nth-child(1) li{
+#bottom-nav ul:nth-child(1) li{
 	padding: 0 5px;
 }
-nav ul:nth-child(2){
+#bottom-nav ul:nth-child(2){
 	float: right;
 }
-nav ul li{
+#bottom-nav ul li{
 	display: inline;
 }
-nav ul li img{
+#bottom-nav ul li img{
 	width: 20px;
 }
